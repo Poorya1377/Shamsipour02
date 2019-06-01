@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Submit Matches </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <form action="http://localhost/submit_matches.php" method="post" class="inputs">
+    <h1>فرم ثبت بازی ها
+    	<span>لطفا فرم زیر را با دقت پر نمایید.</span>
+    </h1>
+    <label>
+    	<span>تیم اول:</span>
+        <input id="name" type="text" name="first_team" placeholder="نام کامل " />
+    </label>
+
+    <label>
+    	<span>تیم دوم:</span>
+        <input id="name" type="text" name="second_team" placeholder="نام کامل " />
+    </label>
+
+            <label>
+                    <span>تاریخ بازی:</span>
+                    <input id="date" type="date" name="date" placeholder="تاریخ شروع بازی " />
+                </label>
+
+                <label>
+                    <span>هفته:</span><select name="week">
+                    <option value= 1>هفته اول</option>
+                    <option value= 2>هفته دوم</option>
+                    <option value= 3>هفته سوم</option>
+                    <option value= 4>هفته چهارم</option>
+                    <option value= 5>هفته پنجم</option>
+                    <option value= 6>هفته ششم</option>
+                    <option value= 7>هفته هفتم</option>
+                    <option value= 8>هفته هشتم</option>
+                    <option value= 9>هفته نهم</option>
+                    <option value= 10>هفته دهم</option>
+                    </select>
+                </label>   
+
+                <label>
+                    <span>داور:</span>
+                    <input id="name" type="text" name="referee" placeholder="نام کامل داور " />
+                </label>
+    	<span> </span> 
+        <input type="submit" class="button" value="ثبت" /> 
+    </label>    
+        </form>
+    </body>
+</html>

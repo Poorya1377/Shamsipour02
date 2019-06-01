@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <head>
+        <meta charset="UTF-8">
+        <title>Submit Goals </title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <form action="http://localhost/submit_goals.php" method="post" class="inputs">
+    <h1>فرم ثبت گل ها
+    	<span>لطفا فرم زیر را با دقت پر نمایید.</span>
+    </h1>
+    
+    <label>
+        <span>هفته:</span><select name="week_goal">
+        <option value= 1>هفته اول</option>
+        <option value= 2>هفته دوم</option>
+        <option value= 3>هفته سوم</option>
+        <option value= 4>هفته چهارم</option>
+        <option value= 5>هفته پنجم</option>
+        <option value= 6>هفته ششم</option>
+        <option value= 7>هفته هفتم</option>
+        <option value= 8>هفته هشتم</option>
+        <option value= 9>هفته نهم</option>
+        <option value= 10>هفته دهم</option>
+        </select>
+    </label>  
+
+    <label>
+        <label>
+            <span>شماره بازی:</span>
+            <input id="name" type="text" name="match_id" placeholder="شماره ی بازی مورد نظر" />
+    </label>
+
+    <label>
+        <label>
+            <span>زننده ی گل:</span>
+            <input id="name" type="text" name="player_name" placeholder="نام بازیکن گل زده" />
+    </label>
+
+    <label>
+        <label>
+            <span>دقیقه گل:</span>
+            <input id="name" type="text" name="minutes" placeholder="دقیقه به ثمر رسیدن گل" />
+    </label>
+
+            
+        <input type="submit" class="button" value="ثبت" /> 
+    </label>    
+        </form>
+    </body>
+</html>
